@@ -4,12 +4,20 @@
 
 ## Problem
 
-### Print I love CodeChef
+### Print Squares
 
-Print each word of the below-given sentence on a new line.
+Write a program to output the squares (using multiplication) of numbers from 1 to 5 on separate lines.
+
+[ **Note:**  Please print in the same format as given below. There are single spaces between hyphen(-) and digits.]
+
+### Output Format
 
 ```
-I love CodeChef
+1 - 1
+2 - 4
+3 - 9
+4 - 16
+5 - 25
 
 ```
 
@@ -18,13 +26,14 @@ I love CodeChef
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T16:20:33.394Z  
+**Submitted:** 2026-07-31T16:24:04.638Z  
 
 ```py
 # cook your dish here
-print("I")
-print("love")
-print("CodeChef")
+for n in range(1,6):
+    print(n)
+    print("-")
+    print(n*n)
 ```
 
 ---
