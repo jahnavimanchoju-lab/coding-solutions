@@ -4,16 +4,20 @@
 
 ## Problem
 
-_Description not available._
+### MCQ on printing sum
+
+Which lines of code will output the sum of 7 and 19?
+
+ **Hint: There are two correct answers.**
 
 ## Solution
 
-**Language:** default  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T14:39:41.290Z  
+**Submitted:** 2026-08-01T14:40:02.657Z  
 
-```default
+```cpp
 # Replace print(___) with print("I love Python")
 
 print("I Love Python")
