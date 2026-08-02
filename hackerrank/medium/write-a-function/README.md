@@ -1,4 +1,4 @@
-# Loops
+# Write a function
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -41,15 +41,16 @@ The function must return a Boolean value (True/False).  Output is handled by the
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T14:21:45.418Z  
+**Submitted:** 2026-08-02T15:25:36.985Z  
 
 ```py
-if __name__ == '__main__':
-    n = int(input())
-    if n>0:
-        for i in range(n):
-            print(i*i)
-            
+def is_leap(year):
+    leap=False
+
+    if(year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        return True
+    else: 
+        return False
 
 ```
 
