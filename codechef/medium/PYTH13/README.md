@@ -4,16 +4,51 @@
 
 ## Problem
 
-_Description not available._
+### Multiple Choice Question
+
+What will be the output of this code?
+
+```
+print(82, 2, " ", 3)
+
+```
+
+ **Option 1** :
+
+```
+8223
+
+```
+
+ **Option 2** :
+
+```
+82 2 3
+
+```
+
+ **Option 3** :
+
+```
+82 2   3
+
+```
+
+ **Option 4** :
+
+```
+82 2 " " 3
+
+```
 
 ## Solution
 
-**Language:** Python  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T14:42:06.207Z  
+**Submitted:** 2026-08-02T14:42:31.051Z  
 
-```py
+```cpp
 # Add "equals" and 10 at the place of __, __
 
 print(7, "plus", 3, "equals", 10)
