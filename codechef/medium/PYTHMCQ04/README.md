@@ -4,23 +4,16 @@
 
 ## Problem
 
-### MCQ on output in single line
+### MCQ on output in separate lines
 
-What will the following code output?
-
-```
-print("We need to understand", "how to print multiple output in a single line")
-
-```
-
-Notice that this is using a comma to print text.
+How do we print output on separate lines in Python?
 
 ## Solution
 
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T14:40:53.400Z  
+**Submitted:** 2026-08-02T14:40:30.813Z  
 
 ```cpp
 # Update the '_' below to solve the problem
