@@ -28,7 +28,7 @@ print(11)
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T14:44:12.043Z  
+**Submitted:** 2026-08-02T14:44:15.328Z  
 
 ```cpp
 # Add "equals" and 10 at the place of __, __
