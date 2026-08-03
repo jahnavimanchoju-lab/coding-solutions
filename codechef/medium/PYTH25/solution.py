@@ -1,5 +1,4 @@
-# Update the code below this line to solve the problem
-length=45
-width=76
-variable_area=length*width
-print(variable_area)
+# Update your code below this line
+radius=8.9
+pi=3.14
+print(pi*radius*radius)
