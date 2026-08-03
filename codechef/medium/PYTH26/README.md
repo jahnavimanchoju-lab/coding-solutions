@@ -4,20 +4,42 @@
 
 ## Problem
 
-_Description not available._
+### String Datatype
+
+Listen
+
+The  *string*  type is used to store a sequence of characters, i.e. text.
+String values can be surrounded by either double quotes or single quotes.
+Python does not care about whether you use single or double quotes.
+
+For example, both the below codes do the same thing:
+
+```
+sentence1 = "I am using CodeChef"
+sentence2 = 'I am using CodeChef'
+
+```
+
+### Task
+
+Write a program which does the following
+
+- Declare two variables a and b
+- Assign Learning to a and is fun! to b
+- Using the concepts we learned previously, display the sentence "Learning is fun!" using variables a and b in a single line
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-03T16:08:08.920Z  
+**Submitted:** 2026-08-03T16:11:39.559Z  
 
 ```py
 # Update your code below this line
-radius=8.9
-pi=3.14
-print(pi*radius*radius)
+a="learnig"
+b="is fun!"
+print(a,b)
 ```
 
 ---
