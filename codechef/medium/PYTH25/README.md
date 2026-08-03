@@ -4,22 +4,33 @@
 
 ## Problem
 
-### Area of Rectangle
+### Float datatype
 
 Listen
 
-Write a program which does the following
+In Python, you don't need to explicitly specify the type of a variable during declaration. The type is inferred based on the kind of value assigned to the variable.
 
-- Find out and display the area of a rectangle of sides 45 and 76 respectively.
-- Declare variables length, width and area and assign the relevant values to them
-- Output the value of variable area
-
- **Note:**  Area of rectangle = length * width
-
- **Expected Output** 
+For example if you put decimal values in a variable, the type of variable becomes float.
 
 ```
-3420
+pi = 3.14
+
+```
+
+### Task
+
+Write a program which does the following:
+
+- Find the area of a circle whose radius is 8.9. Take pi = 3.14
+- Declare variables radius, pi and area and assign the relevant values to them
+- Output the area, you don't need to output any other text.
+
+Note: Formula for the area of a circle is $pi \times radius \times radius$
+
+ **Expected output:** 
+
+```
+248.71940000000004
 
 ```
 
@@ -28,14 +39,13 @@ Write a program which does the following
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T14:51:20.197Z  
+**Submitted:** 2026-08-03T16:08:05.327Z  
 
 ```py
-# Update the code below this line to solve the problem
-length=45
-width=76
-variable_area=length*width
-print(variable_area)
+# Update your code below this line
+radius=8.9
+pi=3.14
+print(pi*radius*radius)
 ```
 
 ---
