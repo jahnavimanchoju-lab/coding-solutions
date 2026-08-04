@@ -4,31 +4,33 @@
 
 ## Problem
 
-### Multiple Choice Question
+### Cost of painting
 
-What will be the output of this code?
+Listen
 
-```
-a = -10
-b = -3
-c = a * b
-print(c)
+Write a program which does the following
 
-```
+- Find the area of a square of side 14cm.
+- Also, find the cost of painting the square if the paint costs is 7$ per $cm^2$.
+- Initialize the following variables in your program and use them in the computation s to store the length of side the square area to store the area of the square cost to store the cost of painting
+- Output area and cost to the console on separate lines.
 
 ## Solution
 
-**Language:** C++  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T13:52:38.319Z  
+**Submitted:** 2026-08-04T14:26:01.541Z  
 
-```cpp
-# cook your dish here
-a=-50
-b=40
-print(a+b)
-print(a*b)
+```py
+# Update your code below this line
+s = 14
+
+area = s * s
+cost = area * 7
+
+print(area)
+print(cost)
 ```
 
 ---
