@@ -20,7 +20,7 @@ print a * b
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T13:53:17.286Z  
+**Submitted:** 2026-08-04T13:53:20.631Z  
 
 ```cpp
 # cook your dish here
