@@ -21,14 +21,13 @@ print(c)
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T13:52:53.292Z  
+**Submitted:** 2026-08-06T16:05:56.256Z  
 
 ```cpp
-# cook your dish here
-a=-50
-b=40
-print(a+b)
-print(a*b)
+# Update the code below
+x=True
+y=False
+print(x,y)
 ```
 
 ---
