@@ -4,25 +4,34 @@
 
 ## Problem
 
-_Description not available._
+Write a program to find the area and perimeter of square whose side length is `4.5`. On the first line, print square's area and on the second line, its perimeter.
+
+### Expected output
+
+```
+20.25
+18.0
+
+```
+
+ **Note:** 
+Area of a Square = side × side
+and, Perimeter = 4 x side
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-06T16:12:29.868Z  
+**Submitted:** 2026-08-06T16:14:23.258Z  
 
 ```py
 # cook your dish here
-
-
-# Declare a variable "temperature" and initialize it with a value of 25.5
-temperature=25.5
-
-print("celsius -",temperature)
-
-print("kelvin -",temperature + 273)
+side=4.5
+area=side*side
+perimeter=4*side
+print(area)
+print(perimeter)
 ```
 
 ---
