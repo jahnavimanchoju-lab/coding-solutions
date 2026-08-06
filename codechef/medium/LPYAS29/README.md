@@ -12,13 +12,13 @@
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:40:11.104Z  
+**Submitted:** 2026-08-06T16:08:10.422Z  
 
 ```py
 # cook your dish here
 x=20
 y=6
-print(20//6)
+print(x//y)
 ```
 
 ---
