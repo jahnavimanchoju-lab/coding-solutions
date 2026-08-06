@@ -1,5 +1,4 @@
-# cook your dish here
-a=-50
-b=40
-print(a+b)
-print(a*b)
+# Update the code below
+x=True
+y=False
+print(x,y)
