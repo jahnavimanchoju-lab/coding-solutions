@@ -4,34 +4,29 @@
 
 ## Problem
 
-### Else Statement
+### Conditions in if statements
 
 Listen
 
-The else keyword handles the case that don't meet the conditions specified in the if and elif statements. It's like a "none of the above" option in programming.
+You are given a score that the player has achieved in a 100 point game.
 
 ### Task
 
-Some code is written in the editor.
+Print some text based on below conditions:
 
-- Create integer variables r and k - the weight of friends Ram and Karan
-- Take user input for r and then k
-- Output based on these conditions: If r is greater than k, output "Ram is heavier than Karan" If r is less than k, output "Karan is heavier than Ram" Otherwise, output "Ram & Karan have the same weight"
-
-Your task is to complete the blanks in the code.
-
-<img src=https://cdn.codechef.com/Learning/learn-python-new/ram-karan.png width=500px height=600px>
-
+- If the score is 100, print "Perfect score"
+- If the score is less than 100, but greater or equal to 80, print "Almost perfect score"
+- If the score is less than 80, print "Nice try"
 ### Sample 1:
 Input
 Output
 
 ```
-24 32
+100
 ```
 
 ```
-Karan is heavier than Ram
+Perfect score
 ```
 
 ### Sample 2:
@@ -39,11 +34,11 @@ Input
 Output
 
 ```
-78 78
+85
 ```
 
 ```
-Ram & Karan have the same weight!
+Almost perfect score
 ```
 
 ### Sample 3:
@@ -51,11 +46,11 @@ Input
 Output
 
 ```
-32 24
+60
 ```
 
 ```
-Ram is heavier than Karan.
+Nice try
 ```
 
 ## Solution
@@ -63,19 +58,18 @@ Ram is heavier than Karan.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T15:31:35.311Z  
+**Submitted:** 2026-08-12T15:35:25.620Z  
 
 ```py
-# Update the blanks in the code below to solve the problem
+score = int(input())
+if score==100:
+    print("perfect score")
+elif score<=80:
+    print("Almost perfect score")
+elif score<80:
+    print("Nice try")
 
-r, k = map(int, input().split())
 
-if r>k:
-    print("Ram is heavier than Karan")
-elif r<k:
-    print("Karan is heavier than Ram")
-else:
-    print("Ram & Karan have the same weight")
 ```
 
 ---
