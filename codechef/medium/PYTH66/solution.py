@@ -1,5 +1,7 @@
-# Update your code below this line
-a=int(input())
-b=int(input())
-if a>b:
-    print("Coding is Fun")
+b = int(input())
+r = int(input())
+if r>b:
+    print("Rob scored higher marks than Bob")
+elif b==r:
+    print("Bob &Rob scored the same")
+
