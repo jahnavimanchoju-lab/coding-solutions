@@ -4,56 +4,95 @@
 
 ## Problem
 
-### Indentation
+### If & Else Statements
 
 Listen
 
-Let us take a look at the code from last problem.
+We use conditions in code for decision making and controlling the flow of a program.
+
+ **IF**  and  **ELSE**  can be used together to create conditions. The syntax for this is:
 
 ```
-age = int(input())
-
-if age >= 18:
-    print("Old enough to vote")
+if condition:
+    # code to run if the condition is true
 else:
-    print("Not old enough to vote")
+    # code to run if the above condition is false
 
 ```
 
-Two things to note here:
+Condition can be any expression which you are trying to evaluate. A simple condition can be:
 
-- There is some space before the print statements.
-- There is a colon (:) after if and else statements.
+```
+a = 4
+b = 5
+if a == b:
+    print("a and b are equal")
+else:
+    print("a and b are not equal")
 
-The space before print is called  **indentation**. Indentation is used to define scope in Python. Because of the space before `print`, Python knows that it has to execute the print statement if the condition becomes True.
+# Output:
+# a and b are not equal
+#`a == b` is used to check whether the values of variables `a` and `b` are equal. `==` is called a equal to operator.
 
-The colon after IF and ELSE is also part of the syntax, you will get an error if you forget it.
+```
 
+Here's a table of common operators used in Python conditions:
+
+Operator	Description	Example
+`==`	Equal to	`a == b`
+`!=`	Not equal to	`a != b`
+`>`	Greater than	`a > b`
+`<`	Less than	`a < b`
+`>=`	Greater than or equal to	`a >= b`
+`<=`	Less than or equal to	`a <= b`
 ### Task
 
-You need to do the following
+Write a program which does the following
 
-- Run the code as is and read the error that you get
-- Add space before the print syntax and then re-run the code
+- Let's think of a real-life example where we need to find out if a person is old enough to vote.
+- Find out if the age entered by the user is greater than OR equal to the voting age limit, which is set to 18.
+- Declare the variable age - take an integer input and store it in age.
+- Compare age and voting age limit using the syntax given above and output the following "Old enough to vote" if age is greater than or equal to voting age limit "Not old enough to vote" if age is lesser than voting age limit
+### Sample 1:
+Input
+Output
+
+```
+20
+```
+
+```
+Old enough to vote
+```
+
+### Sample 2:
+Input
+Output
+
+```
+15
+```
+
+```
+Not old enough to vote
+```
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T15:25:07.633Z  
+**Submitted:** 2026-08-12T15:24:31.438Z  
 
 ```py
-r = 1000
-w = 3222
-if r > w:
-#This code will not run due to improper indentation
-   print("White balls are out of stock")  
+# Update the '_' in the code below to solve the problem
+
+age = 18
+
+if age>=18:
+    print("Old enough to vote")
 else:
-#Fix the error by putting a space before both print
-  print("Your order is Confirmed")
-
-
+    print("Not old enough to vote")
 ```
 
 ---
