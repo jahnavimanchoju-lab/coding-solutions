@@ -4,55 +4,34 @@
 
 ## Problem
 
-### Elif Statement
+### Else Statement
 
 Listen
 
-In the previous problems, you saw how your code can have two different flows using one if and one else condition.
-Now what if you want to evaluate more than two conditions? In such case, one if and one else condition is not sufficient. That is where  **elif statements**  come in handy. Let's understand them in detail.
+The else keyword handles the case that don't meet the conditions specified in the if and elif statements. It's like a "none of the above" option in programming.
 
-In short, in cases where you have to check for multiple conditions and run some code based on each, you have to use  **elif**.
-
-The  **elif**  keyword means "if the previous conditions were not true, then try this condition".
-
-The following example illustrates usage of  **elif**.
-
-```
-grade = 85
-
-if grade >= 90:
-    print("You got an A")
-elif grade >= 80:
-    print("You got a B")
-
-# Output:
-# You got a B
-
-```
-
-The code above works as follows
-
-- If grade >= 90, then it will output: You got an A
-- If grade is between 80 and 90 - it will output: You got a B
-- If grade is less than 80 - there will be no output
 ### Task
 
-Write a program which does the following
+Some code is written in the editor.
 
-- Take two integers b and r as input
-- Print "Rob scored higher marks than Bob", if r is greater than b
-- Print "Bob & Rob both scored the same", if both b and r are equal
+- Create integer variables r and k - the weight of friends Ram and Karan
+- Take user input for r and then k
+- Output based on these conditions: If r is greater than k, output "Ram is heavier than Karan" If r is less than k, output "Karan is heavier than Ram" Otherwise, output "Ram & Karan have the same weight"
+
+Your task is to complete the blanks in the code.
+
+<img src=https://cdn.codechef.com/Learning/learn-python-new/ram-karan.png width=500px height=600px>
+
 ### Sample 1:
 Input
 Output
 
 ```
-20
-25
+24 32
 ```
 
 ```
-Rob scored higher marks than Bob
+Karan is heavier than Ram
 ```
 
 ### Sample 2:
@@ -60,12 +39,23 @@ Input
 Output
 
 ```
-15
-15
+78 78
 ```
 
 ```
-Bob & Rob both scored the same
+Ram & Karan have the same weight!
+```
+
+### Sample 3:
+Input
+Output
+
+```
+32 24
+```
+
+```
+Ram is heavier than Karan.
 ```
 
 ## Solution
@@ -73,17 +63,19 @@ Bob & Rob both scored the same
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T15:30:16.358Z  
+**Submitted:** 2026-08-12T15:31:32.921Z  
 
 ```py
-b = int(input())
-r = int(input())
-if r>b:
-    print("Rob scored higher marks than Bob")
-elif b==r:
-    print("Bob &Rob scored the same")
+# Update the blanks in the code below to solve the problem
 
+r, k = map(int, input().split())
 
+if r>k:
+    print("Ram is heavier than Karan")
+elif r<k:
+    print("Karan is heavier than Ram")
+else:
+    print("Ram & Karan have the same weight")
 ```
 
 ---
