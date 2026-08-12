@@ -73,7 +73,7 @@ Bob & Rob both scored the same
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T15:29:37.789Z  
+**Submitted:** 2026-08-12T15:29:47.615Z  
 
 ```py
 b = int(input())
