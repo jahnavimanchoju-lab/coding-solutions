@@ -44,7 +44,7 @@ hlh
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T14:15:00.612Z  
+**Submitted:** 2026-08-18T14:15:07.686Z  
 
 ```py
 # Change the indexing from one based to zero based
