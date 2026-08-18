@@ -18,7 +18,7 @@ I love CodeChef
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T16:20:28.125Z  
+**Submitted:** 2026-08-18T14:10:55.398Z  
 
 ```py
 # cook your dish here
