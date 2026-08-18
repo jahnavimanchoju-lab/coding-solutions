@@ -9,4 +9,3 @@ elif choice == 3:
     print("Option 3 selected")
 else:
     print("Invalid choice")
-
