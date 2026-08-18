@@ -61,7 +61,7 @@ Invalid choice
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T15:32:58.882Z  
+**Submitted:** 2026-08-18T14:20:21.615Z  
 
 ```py
 # Update the code below to debug the problem
@@ -75,8 +75,6 @@ elif choice == 3:
     print("Option 3 selected")
 else:
     print("Invalid choice")
-
-
 ```
 
 ---
