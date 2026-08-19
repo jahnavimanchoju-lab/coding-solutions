@@ -1,0 +1,4 @@
+# Update the code below this line
+a=["Monday","Tuesday","Wednesday","Thursday"]
+print(a[2])
+print(a[3])
