@@ -4,20 +4,37 @@
 
 ## Problem
 
-_Description not available._
+### Displaying the count of elements
+
+Listen
+
+To get the length of a list or the number of elements present in a list, you can use the  **`len()`**  operator:
+For e.g.
+
+```
+myNumbers = [10, 20, 30, 40, 50]
+print(len(myNumbers))      # will output 5
+
+```
+
+### Task
+
+Write a program which does the following
+
+- Create an int list containing the elements 10, 20, 30, 40, 50, 60
+- Compile and output to the console the accurate count of the number of integer elements in the given list.
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T14:12:32.286Z  
+**Submitted:** 2026-08-19T14:13:16.491Z  
 
 ```py
-# Update the code below this line
-a=["Monday","Tuesday","Wednesday","Thursday"]
-print(a[2])
-print(a[3])
+# Update your code below this line
+list=[10,20,30,40,50,60]
+print(len(list))
 ```
 
 ---
