@@ -1,4 +1,3 @@
-# Update the code below this line
-a=["Monday","Tuesday","Wednesday","Thursday"]
-print(a[2])
-print(a[3])
+# Update your code below this line
+list=[10,20,30,40,50,60]
+print(len(list))
