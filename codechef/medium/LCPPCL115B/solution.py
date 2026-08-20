@@ -1,5 +1,6 @@
-i = 5# Initialisation
+a = 10
 
-while i<21: # Condition
-    print(i)
-    i=i+1 # Update statement
+while a>-1:
+    print(a)
+    a=a-1
+    
