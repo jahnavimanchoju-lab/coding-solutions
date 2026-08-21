@@ -22,7 +22,7 @@ while (a != b):
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T11:44:28.453Z  
+**Submitted:** 2026-08-21T11:44:31.225Z  
 
 ```cpp
 # Update your code below this line
