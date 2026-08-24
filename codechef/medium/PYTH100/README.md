@@ -4,48 +4,33 @@
 
 ## Problem
 
-### Single range argument
+### Table of any number
 
 Listen
 
-You can also pass just one argument to the range function.
-When you use one argument in the range(n) function, it generates a sequence of numbers starting from 0 up to, but not including `N`.
+Write a program which does the following
+
+- Create a variable n and store the user defined input from console in n
+- Output to the console the multiplication table for n up to 10 In the previous module we manually entered each row of the table In this problem - use for loops to generate the table
+### Sample 1:
+Input
+Output
 
 ```
-for i in range(5):
-    print(i)
-
+5
 ```
 
-Expected output:
-
 ```
-0
-1
-2
-3
-4
-# The sequence starts at 0 and ends at n-1. In this example, it generates numbers from 0 to 4.
-
-```
-
-So, the above loop runs 5 times. The `range(5)` function generates the numbers 0, 1, 2, 3, and 4.
-This is useful when you need to repeat something a specific number of times.
-
-### Task
-
-Write a for loop that iterates 10 times (from 0 to 9) and prints the square of each number.
-
-```
-0
-1
-4
-9
-.
-.
-. 
-81
-
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
 ```
 
 ## Solution
@@ -53,12 +38,14 @@ Write a for loop that iterates 10 times (from 0 to 9) and prints the square of e
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:12:42.059Z  
+**Submitted:** 2026-08-24T14:15:22.155Z  
 
 ```py
-# Update your code below this line
-for i in range(10):
-    print(i*i)
+# Update the code below
+
+n = int(input())
+for i in range(1,11):
+    print(n,"x",i,"=",n*i)
 ```
 
 ---
