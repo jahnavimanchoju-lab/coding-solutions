@@ -4,53 +4,48 @@
 
 ## Problem
 
-### Two range arguments
+### Single range argument
 
 Listen
 
-Another way to use the range function is by providing two arguments: `start and stop`.
-When you use two arguments in the `range(start, stop)` function, it generates a sequence of numbers starting from the start value up to, but not including, the stop value.
+You can also pass just one argument to the range function.
+When you use one argument in the range(n) function, it generates a sequence of numbers starting from 0 up to, but not including `N`.
 
 ```
-for i in range(2, 6):
+for i in range(5):
     print(i)
 
 ```
 
- **Output** :
+Expected output:
 
 ```
-2
-3
-4
-5
-# Start: The sequence starts at the start value (inclusive). In this example, it starts at 2.
-# Stop: The sequence ends at the stop value (exclusive). In this example, it stops before 6.
-
-```
-
-So, the range(2, 6) function generates the numbers 2, 3, 4, and 5. The start value is included in the sequence, but the stop value is not.
-
-### Task
-
-Write a program which does the following
-
-- Accepts a user-defined input as the variable num
-- Output all positive integers from 1 till num - num inclusive - on a separate line
-### Sample 1:
-Input
-Output
-
-```
-5
-```
-
-```
+0
 1
 2
 3
 4
-5
+# The sequence starts at 0 and ends at n-1. In this example, it generates numbers from 0 to 4.
+
+```
+
+So, the above loop runs 5 times. The `range(5)` function generates the numbers 0, 1, 2, 3, and 4.
+This is useful when you need to repeat something a specific number of times.
+
+### Task
+
+Write a for loop that iterates 10 times (from 0 to 9) and prints the square of each number.
+
+```
+0
+1
+4
+9
+.
+.
+. 
+81
+
 ```
 
 ## Solution
@@ -58,13 +53,12 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:09:14.018Z  
+**Submitted:** 2026-08-24T14:12:35.166Z  
 
 ```py
 # Update your code below this line
-num=int(input())
-for i in range(1,num+1):
-    print(i)
+for i in range(10):
+    print(i*i)
 ```
 
 ---
