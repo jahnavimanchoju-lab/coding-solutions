@@ -15,7 +15,7 @@ Write a program to print integers from 30 to 5 (including 5) with a decrement va
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:05:56.378Z  
+**Submitted:** 2026-08-24T14:06:04.799Z  
 
 ```py
 # Update the '_' to solve the problem
