@@ -43,7 +43,7 @@ Yes
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T14:34:09.966Z  
+**Submitted:** 2026-08-27T14:34:42.938Z  
 
 ```py
 n = int(input())
