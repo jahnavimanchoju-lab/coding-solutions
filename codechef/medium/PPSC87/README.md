@@ -50,7 +50,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T13:43:12.600Z  
+**Submitted:** 2026-08-27T14:30:01.730Z  
 
 ```py
 num = int(input())
