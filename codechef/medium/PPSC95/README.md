@@ -47,7 +47,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T15:10:13.869Z  
+**Submitted:** 2026-08-29T15:46:50.224Z  
 
 ```py
 # Update the '_' to solve the problem
